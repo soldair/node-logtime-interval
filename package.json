@@ -1,0 +1,19 @@
+{
+  "name": "datastream-timeout",
+  "description": "when you would like a timer callback to fire based on the timestamp of the data you are processing - the timestamp of the data when you created the timer",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/soldair/node-datastream-timeout.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "binarysearch": "~0.2.0"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5"
+  }
+}
